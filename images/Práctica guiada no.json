@@ -1,0 +1,155 @@
+{"frames": {
+
+"CachedBmp_10":
+{
+	"frame": {"x":0,"y":97,"w":246,"h":90},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":246,"h":90},
+	"sourceSize": {"w":246,"h":90}
+},
+"CachedBmp_11":
+{
+	"frame": {"x":481,"y":216,"w":302,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":302,"h":58},
+	"sourceSize": {"w":302,"h":58}
+},
+"CachedBmp_2":
+{
+	"frame": {"x":0,"y":345,"w":302,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":302,"h":58},
+	"sourceSize": {"w":302,"h":58}
+},
+"CachedBmp_23":
+{
+	"frame": {"x":746,"y":120,"w":231,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":94},
+	"sourceSize": {"w":231,"h":94}
+},
+"CachedBmp_24":
+{
+	"frame": {"x":0,"y":405,"w":286,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":58},
+	"sourceSize": {"w":286,"h":58}
+},
+"CachedBmp_25":
+{
+	"frame": {"x":0,"y":189,"w":231,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":94},
+	"sourceSize": {"w":231,"h":94}
+},
+"CachedBmp_26":
+{
+	"frame": {"x":304,"y":396,"w":286,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":58},
+	"sourceSize": {"w":286,"h":58}
+},
+"CachedBmp_27":
+{
+	"frame": {"x":248,"y":187,"w":231,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":94},
+	"sourceSize": {"w":231,"h":94}
+},
+"CachedBmp_28":
+{
+	"frame": {"x":608,"y":336,"w":286,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":58},
+	"sourceSize": {"w":286,"h":58}
+},
+"CachedBmp_29":
+{
+	"frame": {"x":648,"y":0,"w":302,"h":118},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":302,"h":118},
+	"sourceSize": {"w":302,"h":118}
+},
+"CachedBmp_30":
+{
+	"frame": {"x":592,"y":396,"w":264,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":264,"h":58},
+	"sourceSize": {"w":264,"h":58}
+},
+"CachedBmp_4":
+{
+	"frame": {"x":304,"y":336,"w":302,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":302,"h":58},
+	"sourceSize": {"w":302,"h":58}
+},
+"CachedBmp_5":
+{
+	"frame": {"x":0,"y":0,"w":646,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":646,"h":95},
+	"sourceSize": {"w":646,"h":95}
+},
+"CachedBmp_7":
+{
+	"frame": {"x":0,"y":285,"w":302,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":302,"h":58},
+	"sourceSize": {"w":302,"h":58}
+},
+"CachedBmp_8":
+{
+	"frame": {"x":497,"y":120,"w":247,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":247,"h":88},
+	"sourceSize": {"w":247,"h":88}
+},
+"CachedBmp_8copia2":
+{
+	"frame": {"x":248,"y":97,"w":247,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":247,"h":88},
+	"sourceSize": {"w":247,"h":88}
+},
+"CachedBmp_9":
+{
+	"frame": {"x":481,"y":276,"w":302,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":302,"h":58},
+	"sourceSize": {"w":302,"h":58}
+},
+"Screenshot20260316162448":
+{
+	"frame": {"x":785,"y":216,"w":101,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":69},
+	"sourceSize": {"w":101,"h":69}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "24.0.0.305",
+	"image": "Práctica guiada no. 1 PELICULAS INTERACTIVAS _ Acciones en los botones_atlas_1.png",
+	"format": "undefined",
+	"size": {"w":1024,"h":512},
+	"scale": "1"
+}
+}
