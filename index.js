@@ -649,7 +649,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
-		window.open('Yelato.html', '_self');
+		window.open('proyectos.html', '_self');
 		});
 		_this.contacto.on('click', function(){
 		/*
@@ -754,9 +754,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png?1778203375887", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1778203375888", id:"index_atlas_2"},
-		{src:"images/index_atlas_3.png?1778203375889", id:"index_atlas_3"}
+		{src:"images/index_atlas_1.png?1778207720763", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1778207720763", id:"index_atlas_2"},
+		{src:"images/index_atlas_3.png?1778207720763", id:"index_atlas_3"}
 	],
 	preloads: []
 };

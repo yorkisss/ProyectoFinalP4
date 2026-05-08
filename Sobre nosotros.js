@@ -382,6 +382,7 @@ if (reversed == null) { reversed = false; }
 	this.actionFrames = [0];
 	// timeline functions:
 	this.frame_0 = function() {
+		var _this = this;
 		/*
 		Al hacer clic en la instancia del símbolo especificada, se ejecuta una función.
 		*/
@@ -391,47 +392,29 @@ if (reversed == null) { reversed = false; }
 		*/
 		window.open('index.html', '_self');
 		});
-		
-		
-		/*
-		Al hacer clic en la instancia del símbolo especificada, se ejecuta una función.
-		*/
-		_this.contacto.on('click', function(){
+		_this.nosotros.on('click', function(){
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
-		window.open('contacto.html', '_self');
+		window.open('Sobre nosotros.html', '_self');
 		});
-		
-		
-		/*
-		Al hacer clic en la instancia del símbolo especificada, se ejecuta una función.
-		*/
-		_this.servicos.on('click', function(){
+		_this.servicios.on('click', function(){
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
 		window.open('Servicios.html', '_self');
 		});
-		
-		
-		/*
-		Al hacer clic en la instancia del símbolo especificada, se ejecuta una función.
-		*/
 		_this.yelato.on('click', function(){
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
 		window.open('yelato.html', '_self');
 		});
-		/*
-		Al hacer clic en la instancia del símbolo especificada, se ejecuta una función.
-		*/
-		_this.nosotros.on('click', function(){
+		_this.contacto.on('click', function(){
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
-		window.open('Sobre nosotros.html', '_self');
+		window.open('contacto.html', '_self');
 		});
 	}
 
@@ -471,15 +454,15 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1).to({regY:427.4,x:-294.8,y:644.45},0).wait(1).to({x:-290.4},0).wait(1).to({x:-286},0).wait(1).to({x:-281.6},0).wait(1).to({x:-277.2},0).wait(1).to({x:-272.8},0).wait(1).to({x:-268.45},0).wait(1).to({x:-264.05},0).wait(1).to({x:-259.65},0).wait(1).to({x:-255.25},0).wait(1).to({x:-250.85},0).wait(1).to({x:-246.45},0).wait(1).to({x:-242.1},0).wait(1).to({x:-237.7},0).wait(1).to({x:-233.3},0).wait(1).to({x:-228.9},0).wait(1).to({x:-224.5},0).wait(1).to({x:-220.1},0).wait(1).to({x:-215.7},0).wait(1).to({x:-211.35},0).wait(1).to({x:-206.95},0).wait(1).to({regY:356.8,x:-203.7,y:573.85},0).wait(1).to({regY:427.4,x:-200.65,y:644.45},0).wait(1).to({x:-197.6},0).wait(1).to({x:-194.6},0).wait(1).to({x:-191.55},0).wait(1).to({x:-188.5},0).wait(1).to({x:-185.5},0).wait(1).to({x:-182.45},0).wait(1).to({x:-179.45},0).wait(1).to({x:-176.4},0).wait(1).to({x:-173.35},0).wait(1).to({x:-170.35},0).wait(1).to({x:-167.3},0).wait(1).to({x:-164.3},0).wait(1).to({x:-161.25},0).wait(1).to({x:-158.2},0).wait(1).to({x:-155.2},0).wait(1).to({x:-152.15},0).wait(1).to({x:-149.15},0).wait(1).to({x:-146.1},0).wait(1).to({x:-143.05},0).wait(1).to({x:-140.05},0).wait(1).to({x:-137},0).wait(1).to({x:-134},0).wait(1).to({x:-130.95},0).wait(1).to({x:-127.9},0).wait(1).to({x:-124.9},0).wait(1).to({x:-121.85},0).wait(1).to({x:-118.85},0).wait(1).to({x:-115.8},0).wait(1).to({x:-112.75},0).wait(1).to({x:-109.75},0).wait(1).to({x:-106.7},0).wait(1).to({x:-103.7},0).wait(1).to({x:-100.65},0).wait(1).to({x:-97.6},0).wait(1).to({x:-94.6},0).wait(1).to({x:-91.55},0).wait(1).to({x:-88.55},0).wait(1).to({x:-85.5},0).wait(1).to({x:-82.45},0).wait(1).to({x:-79.45},0).wait(1).to({x:-76.4},0).wait(1).to({x:-73.4},0).wait(1).to({x:-70.35},0).wait(1).to({x:-67.3},0).wait(1).to({x:-64.3},0).wait(1).to({x:-61.25},0).wait(1).to({x:-58.25},0).wait(1).to({x:-55.2},0).wait(1).to({x:-52.15},0).wait(1).to({x:-49.15},0).wait(1).to({x:-46.1},0).wait(1).to({x:-43.1},0).wait(1).to({x:-40.05},0).wait(1).to({x:-37},0).wait(1).to({x:-34},0).wait(1).to({x:-30.95},0).wait(1).to({x:-27.95},0).wait(1).to({x:-24.9},0).wait(1).to({x:-21.85},0).wait(1).to({x:-18.85},0).wait(1).to({x:-15.8},0).wait(1).to({x:-12.8},0).wait(1).to({x:-9.75},0).wait(1).to({x:-6.7},0).wait(1).to({x:-3.7},0).wait(1).to({x:-0.65},0).wait(1).to({x:2.35},0).wait(1).to({x:5.4},0).wait(1).to({x:8.45},0).wait(1).to({x:11.45},0).wait(1).to({x:14.5},0).wait(1).to({x:17.5},0).wait(1).to({x:20.55},0).wait(1).to({x:23.6},0).wait(1).to({x:26.6},0).wait(1).to({x:29.65},0).wait(1).to({x:32.65},0).wait(1).to({x:35.7},0).wait(1).to({x:38.75},0).wait(1).to({x:41.75},0).wait(1).to({x:44.8},0).wait(1).to({x:47.8},0).wait(1).to({x:50.85},0).wait(1).to({x:53.9},0).wait(1).to({x:56.9},0).wait(1).to({x:59.95},0).wait(1).to({x:62.95},0).wait(1).to({x:66},0).wait(1).to({x:69.05},0).wait(1).to({x:72.05},0).wait(1).to({x:75.1},0).wait(1).to({x:78.1},0).wait(1).to({x:81.15},0).wait(1).to({x:84.2},0).wait(1).to({x:87.2},0).wait(1).to({x:90.25},0).wait(1).to({x:93.25},0).wait(1).to({x:96.3},0).wait(1).to({x:99.35},0).wait(1).to({x:102.35},0).wait(1).to({x:105.4},0).wait(1).to({x:108.4},0).wait(1).to({x:111.45},0).wait(1).to({x:114.5},0).wait(1).to({x:117.5},0).wait(1).to({x:120.55},0).wait(1).to({x:123.55},0).wait(1).to({x:126.6},0).wait(1).to({x:129.65},0).wait(1).to({x:132.65},0).wait(1).to({x:135.7},0).wait(1).to({x:138.7},0).wait(1).to({x:141.75},0).wait(1).to({x:144.8},0).wait(1).to({x:147.8},0).wait(1).to({x:150.85},0).wait(1).to({x:153.85},0).wait(1).to({x:156.9},0).wait(1).to({x:159.95},0).wait(1).to({x:162.95},0).wait(1).to({x:166},0).wait(1).to({x:169},0).wait(1).to({x:172.05},0).wait(1).to({x:175.1},0).wait(1).to({x:178.1},0).wait(1).to({x:181.15},0).wait(1).to({x:184.15},0).wait(1).to({x:187.2},0).wait(1).to({x:190.25},0).wait(1).to({x:193.25},0).wait(1).to({x:196.3},0).wait(1).to({x:199.3},0).wait(1).to({x:202.35},0).wait(1).to({x:205.4},0).wait(1).to({x:208.4},0).wait(1).to({x:211.45},0).wait(1).to({x:214.45},0).wait(1).to({x:217.5},0).wait(1).to({x:220.55},0).wait(1).to({x:223.55},0).wait(1).to({x:226.6},0).wait(1).to({x:229.6},0).wait(1).to({x:232.65},0).wait(1).to({x:235.7},0).wait(1).to({x:238.7},0).wait(1).to({x:241.75},0).wait(1).to({x:244.75},0).wait(1).to({x:247.8},0).wait(1).to({x:250.85},0).wait(1).to({x:253.85},0).wait(1).to({x:256.9},0).wait(1).to({x:259.9},0).wait(1).to({x:262.95},0).wait(1).to({x:266},0).wait(1).to({x:269},0).wait(1).to({x:272.05},0).wait(1).to({x:275.05},0).wait(1).to({x:278.1},0).wait(1).to({x:281.15},0).wait(1).to({x:284.15},0).wait(1).to({x:287.2},0).wait(1).to({x:290.2},0).wait(1).to({x:293.25},0).wait(1).to({x:296.3},0).wait(1).to({x:299.3},0).wait(1).to({x:302.35},0).wait(1).to({x:305.3},0).wait(1).to({x:308.35},0).wait(1).to({x:311.4},0).wait(1).to({x:314.4},0).wait(1).to({x:317.45},0).wait(1).to({x:320.45},0).wait(1).to({x:323.5},0).wait(1).to({x:326.55},0).wait(1).to({x:329.55},0).wait(1).to({x:332.6},0).wait(1).to({x:335.6},0).wait(1).to({x:338.65},0).wait(1).to({x:341.7},0).wait(1).to({x:344.7},0).wait(1).to({x:347.75},0).wait(1).to({x:350.75},0).wait(1).to({x:353.8},0).wait(1).to({x:356.85},0).wait(1).to({x:359.85},0).wait(1).to({x:362.9},0).wait(1).to({x:365.9},0).wait(1).to({x:368.95},0).wait(1).to({x:372},0).wait(1).to({x:375},0).wait(1).to({x:378.05},0).wait(1).to({x:381.05},0).wait(1).to({x:384.1},0).wait(1).to({x:387.15},0).wait(1).to({x:390.15},0).wait(1).to({x:393.2},0).wait(1).to({x:396.2},0).wait(1).to({x:399.25},0).wait(1).to({x:402.3},0).wait(1).to({x:405.3},0).wait(1).to({x:408.35},0).wait(1).to({x:411.35},0).wait(1).to({x:414.4},0).wait(1).to({x:417.45},0).wait(1).to({x:420.45},0).wait(1).to({x:423.5},0).wait(1).to({x:426.5},0).wait(1).to({x:429.55},0).wait(1).to({x:432.6},0).wait(1).to({x:435.6},0).wait(1).to({x:438.65},0).wait(1));
 
 	// Capa_1
-	this.yelatos = new lib.yelato();
-	this.yelatos.name = "yelatos";
-	this.yelatos.setTransform(1251.9,95.95,1,1,0,0,0,104.3,29.6);
-	new cjs.ButtonHelper(this.yelatos, 0, 1, 1);
+	this.yelato = new lib.yelato();
+	this.yelato.name = "yelato";
+	this.yelato.setTransform(1251.9,95.95,1,1,0,0,0,104.3,29.6);
+	new cjs.ButtonHelper(this.yelato, 0, 1, 1);
 
-	this.servicos = new lib.servicios();
-	this.servicos.name = "servicos";
-	this.servicos.setTransform(1040.3,102.95,1,1,0,0,0,107.4,36.6);
-	new cjs.ButtonHelper(this.servicos, 0, 1, 1);
+	this.servicios = new lib.servicios();
+	this.servicios.name = "servicios";
+	this.servicios.setTransform(1040.3,102.95,1,1,0,0,0,107.4,36.6);
+	new cjs.ButtonHelper(this.servicios, 0, 1, 1);
 
 	this.contacto = new lib.contacto();
 	this.contacto.name = "contacto";
@@ -514,7 +497,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("#FFFF99").s().p("AGzJXMiQfAAAIAAgvIEfAAIAAx+MEO6AAAIAAStg");
 	this.shape_1.setTransform(852.575,101.7);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance_6},{t:this.text},{t:this.inicio},{t:this.nosotros},{t:this.contacto},{t:this.servicos},{t:this.yelatos}]}).wait(235));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance_6},{t:this.text},{t:this.inicio},{t:this.nosotros},{t:this.contacto},{t:this.servicios},{t:this.yelato}]}).wait(235));
 
 	this._renderFirstFrame();
 
@@ -529,11 +512,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Sobre nosotros_atlas_1.png?1778166548964", id:"Sobre nosotros_atlas_1"},
-		{src:"images/Sobre nosotros_atlas_2.png?1778166548964", id:"Sobre nosotros_atlas_2"},
-		{src:"images/Sobre nosotros_atlas_3.png?1778166548964", id:"Sobre nosotros_atlas_3"},
-		{src:"images/Sobre nosotros_atlas_4.png?1778166548964", id:"Sobre nosotros_atlas_4"},
-		{src:"images/Sobre nosotros_atlas_5.png?1778166548964", id:"Sobre nosotros_atlas_5"}
+		{src:"images/Sobre nosotros_atlas_1.png?1778205265842", id:"Sobre nosotros_atlas_1"},
+		{src:"images/Sobre nosotros_atlas_2.png?1778205265842", id:"Sobre nosotros_atlas_2"},
+		{src:"images/Sobre nosotros_atlas_3.png?1778205265842", id:"Sobre nosotros_atlas_3"},
+		{src:"images/Sobre nosotros_atlas_4.png?1778205265842", id:"Sobre nosotros_atlas_4"},
+		{src:"images/Sobre nosotros_atlas_5.png?1778205265842", id:"Sobre nosotros_atlas_5"}
 	],
 	preloads: []
 };

@@ -3,8 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"yelato_atlas_1", frames: [[0,0,736,1349],[0,1351,405,371]]},
-		{name:"yelato_atlas_2", frames: [[898,0,896,1280],[0,0,896,1344]]}
+		{name:"yelato_atlas_1", frames: [[898,0,896,1280],[0,0,896,1344]]},
+		{name:"yelato_atlas_2", frames: [[0,0,736,1349],[0,1351,405,371]]}
 ];
 
 
@@ -29,28 +29,28 @@ lib.ssMetadata = [
 
 
 (lib.Mapadebits2 = function() {
-	this.initialize(ss["yelato_atlas_2"]);
+	this.initialize(ss["yelato_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits3 = function() {
-	this.initialize(ss["yelato_atlas_2"]);
+	this.initialize(ss["yelato_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits4 = function() {
-	this.initialize(ss["yelato_atlas_1"]);
+	this.initialize(ss["yelato_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.NewProject20 = function() {
-	this.initialize(ss["yelato_atlas_1"]);
+	this.initialize(ss["yelato_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -490,7 +490,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
-		window.open('Yelato.html', '_self');
+		window.open('proyectos.html', '_self');
 		});
 		_this.contacto.on('click', function(){
 		/*
@@ -589,8 +589,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/yelato_atlas_1.png?1778203473028", id:"yelato_atlas_1"},
-		{src:"images/yelato_atlas_2.png?1778203473028", id:"yelato_atlas_2"}
+		{src:"images/yelato_atlas_1.png?1778207915594", id:"yelato_atlas_1"},
+		{src:"images/yelato_atlas_2.png?1778207915594", id:"yelato_atlas_2"}
 	],
 	preloads: []
 };
