@@ -484,25 +484,19 @@ if (reversed == null) { reversed = false; }
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
-		window.open('servicios.html', '_self');
+		window.open('Servicios.html', '_self');
 		});
-		
+		_this.yelato.on('click', function(){
+		/*
+		Carga la URL en una ventana nueva del navegador.
+		*/
+		window.open('Yelato.html', '_self');
+		});
 		_this.contacto.on('click', function(){
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
 		window.open('contacto.html', '_self');
-		});
-		
-		var _this = this;
-		/*
-		Al hacer clic en la instancia del símbolo especificada, se ejecuta una función.
-		*/
-		_this.yelatos.on('click', function(){
-		/*
-		Carga la URL en una ventana nueva del navegador.
-		*/
-		window.open('yelato.html', '_self');
 		});
 	}
 
@@ -529,15 +523,15 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(40));
 
 	// Capa_1
-	this.yelatos = new lib.yelato_1();
-	this.yelatos.name = "yelatos";
-	this.yelatos.setTransform(1220.75,104.6,1,1,0,0,0,104.3,29.6);
-	new cjs.ButtonHelper(this.yelatos, 0, 1, 1);
+	this.yelato = new lib.yelato_1();
+	this.yelato.name = "yelato";
+	this.yelato.setTransform(1220.75,104.6,1,1,0,0,0,104.3,29.6);
+	new cjs.ButtonHelper(this.yelato, 0, 1, 1);
 
-	this.servicos = new lib.servicios();
-	this.servicos.name = "servicos";
-	this.servicos.setTransform(1009.15,111.6,1,1,0,0,0,107.4,36.6);
-	new cjs.ButtonHelper(this.servicos, 0, 1, 1);
+	this.servicios = new lib.servicios();
+	this.servicios.name = "servicios";
+	this.servicios.setTransform(1009.15,111.6,1,1,0,0,0,107.4,36.6);
+	new cjs.ButtonHelper(this.servicios, 0, 1, 1);
 
 	this.contacto = new lib.contacto();
 	this.contacto.name = "contacto";
@@ -580,7 +574,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("#FFFF99").s().p("EiHcAKBIAAysMENcAAAIAAhVIBdAAIAAUBg");
 	this.shape_1.setTransform(835.775,106.075);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.text},{t:this.inicio},{t:this.nosotros},{t:this.contacto},{t:this.servicos},{t:this.yelatos}]}).wait(40));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.text},{t:this.inicio},{t:this.nosotros},{t:this.contacto},{t:this.servicios},{t:this.yelato}]}).wait(40));
 
 	this._renderFirstFrame();
 
@@ -595,8 +589,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/yelato_atlas_1.png?1778105463980", id:"yelato_atlas_1"},
-		{src:"images/yelato_atlas_2.png?1778105463980", id:"yelato_atlas_2"}
+		{src:"images/yelato_atlas_1.png?1778203473028", id:"yelato_atlas_1"},
+		{src:"images/yelato_atlas_2.png?1778203473028", id:"yelato_atlas_2"}
 	],
 	preloads: []
 };

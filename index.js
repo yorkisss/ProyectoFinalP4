@@ -643,25 +643,19 @@ if (reversed == null) { reversed = false; }
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
-		window.open('servicios.html', '_self');
+		window.open('Servicios.html', '_self');
 		});
-		
+		_this.yelato.on('click', function(){
+		/*
+		Carga la URL en una ventana nueva del navegador.
+		*/
+		window.open('Yelato.html', '_self');
+		});
 		_this.contacto.on('click', function(){
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
 		window.open('contacto.html', '_self');
-		});
-		
-		var _this = this;
-		/*
-		Al hacer clic en la instancia del símbolo especificada, se ejecuta una función.
-		*/
-		_this.yelatos.on('click', function(){
-		/*
-		Carga la URL en una ventana nueva del navegador.
-		*/
-		window.open('yelato.html', '_self');
 		});
 	}
 
@@ -760,9 +754,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png?1778160868595", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1778160868595", id:"index_atlas_2"},
-		{src:"images/index_atlas_3.png?1778160868595", id:"index_atlas_3"}
+		{src:"images/index_atlas_1.png?1778203375887", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1778203375888", id:"index_atlas_2"},
+		{src:"images/index_atlas_3.png?1778203375889", id:"index_atlas_3"}
 	],
 	preloads: []
 };
